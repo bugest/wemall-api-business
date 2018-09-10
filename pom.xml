@@ -3,4 +3,18 @@
   <groupId>com.wemall</groupId>
   <artifactId>wemall-api-business</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  			<!-- mybatis pagehelper -->
+		<dependency>
+			<groupId>com.github.pagehelper</groupId>
+			<artifactId>pagehelper</artifactId>
+			<version>3.7.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.jsqlparser</groupId>
+			<artifactId>jsqlparser</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+  </dependencies>
 </project>
