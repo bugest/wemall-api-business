@@ -19,7 +19,7 @@ public interface CategoriesService {
 	
 	public void removeCategoryModelList();
 	
-	PageInfo<Categories> selectAllCates(int pageNow, int pageSize);
+	List<Categories> selectAllCates(int pageNow, int pageSize);
 	
 	PageInfo<Categories> selectCategoriesByCondition(Integer id, String name, int pageNow, int pageSize);
 
