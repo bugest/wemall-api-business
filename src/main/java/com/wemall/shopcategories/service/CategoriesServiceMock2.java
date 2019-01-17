@@ -6,7 +6,7 @@ import com.github.pagehelper.PageInfo;
 import com.wemall.shopcategories.entity.Categories;
 import com.wemall.shopcategories.model.CategoryModel;
 
-public class CategoriesServiceMock implements CategoriesService {
+public class CategoriesServiceMock2 implements CategoriesService {
 
 	public List<Categories> selectAllCategories() {
 		// TODO Auto-generated method stub
@@ -15,7 +15,7 @@ public class CategoriesServiceMock implements CategoriesService {
 
 	public List<CategoryModel> getCategoryModelList() {
 		// TODO Auto-generated method stub
-		throw new RuntimeException("add user fail!");
+		throw new RuntimeException("hahaha!");
 	}
 
 	public Categories selectByPrimaryKey(Integer id) {
