@@ -1,12 +1,13 @@
 package com.wemall.shopcategories.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.github.pagehelper.PageInfo;
 import com.wemall.shopcategories.entity.Categories;
 import com.wemall.shopcategories.model.CategoryModel;
 
-public class CategoriesServiceMock2 implements CategoriesService {
+public class CategoriesServiceMock implements CategoriesService {
 
 	public List<Categories> selectAllCategories() {
 		// TODO Auto-generated method stub
@@ -15,7 +16,12 @@ public class CategoriesServiceMock2 implements CategoriesService {
 
 	public List<CategoryModel> getCategoryModelList() {
 		// TODO Auto-generated method stub
-		throw new RuntimeException("hahaha!");
+		//throw new RuntimeException("hahaha!");
+		ArrayList<CategoryModel> arrayList = new ArrayList<CategoryModel>();
+		CategoryModel categoryModel = new CategoryModel();
+		categoryModel.setId(1);
+		arrayList.add(categoryModel);
+		return arrayList;
 	}
 
 	public Categories selectByPrimaryKey(Integer id) {
